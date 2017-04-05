@@ -6,7 +6,7 @@ from User import User
 
 
 def parse_csv(user_dict, csv_path):
-    """Returns an updated user dictionary based off the contents of the csv file.
+    """Updates user dictionary based off the contents of the csv file.
         
     Note that user_dict may be empty, and csv_path must be valid. 
         
